@@ -2,7 +2,7 @@
 
 [Download GunterChart for Windows](https://github.com/elitehammer/GunterChart-Releases/releases/latest/download/GunterChart-Windows.zip)
 
-No GitHub account or invitation required. This repository contains compiled downloads only; application source remains private.
+No account needed. The updater finds your MT5 installation automatically. This repository contains compiled downloads only; application source remains private.
 
 GunterChart - first-time setup (no account needed)
 
@@ -11,7 +11,10 @@ GunterChart - first-time setup (no account needed)
 2. Right-click the ZIP and choose Extract All. Keep channel.json beside
    GunterChartUpdater.exe in the extracted folder.
 3. Open GunterChartUpdater.exe. No GitHub sign-in or invitation is needed.
-4. Select your MT5 installation and click Install for this MT5.
+4. The updater finds MT5 automatically. If there is one installation it is
+   selected for you; if there are several, choose the broker you want.
+   Click Install for this MT5. If asked, open MT5 once in standard mode,
+   then click Rescan. No folder paths need to be entered.
 5. In MT5 Navigator, right-click Expert Advisors and select Refresh.
    Attach GunterChart > GunterChart to your chart. Replace a numbered version
    if one was already attached, and review the EA inputs.
