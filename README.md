@@ -1,35 +1,45 @@
-# GunterChart for invited testers
+# GunterChart for Windows
 
-[Download the latest app](https://github.com/elitehammer/GunterChart-Releases/releases/latest) and choose **GunterChart-Windows.zip** under Assets.
+[Download GunterChart for Windows](https://github.com/elitehammer/GunterChart-Releases/releases/latest/download/GunterChart-Windows.zip)
 
-GunterChart - first-time setup
+No GitHub account or invitation required. This repository contains compiled downloads only; application source remains private.
 
-1. Accept the private GitHub invitation using your own GitHub account.
-2. Download GunterChart-Windows.zip from:
-   https://github.com/elitehammer/GunterChart-Releases/releases/latest
-3. Extract all files into a folder. Keep channel.json beside GunterChartUpdater.exe.
-4. Open GunterChartUpdater.exe and choose Sign in with GitHub.
-   Enter the code shown in the updater on GitHub and authorize GunterChart Updates.
-5. Select the correct MT5 installation and click Install for this MT5.
-6. In MT5 Navigator, right-click Expert Advisors and select Refresh.
-   Attach GunterChart > GunterChart to your chart. Replace a numbered GunterChart
-   version if one was already attached, and review the EA inputs.
-7. For News, add https://nfs.faireconomy.media in MT5 Tools > Options >
+GunterChart - first-time setup (no account needed)
+
+1. Download GunterChart-Windows.zip:
+   https://github.com/elitehammer/GunterChart-Releases/releases/latest/download/GunterChart-Windows.zip
+2. Right-click the ZIP and choose Extract All. Keep channel.json beside
+   GunterChartUpdater.exe in the extracted folder.
+3. Open GunterChartUpdater.exe. No GitHub sign-in or invitation is needed.
+4. Select your MT5 installation and click Install for this MT5.
+5. In MT5 Navigator, right-click Expert Advisors and select Refresh.
+   Attach GunterChart > GunterChart to your chart. Replace a numbered version
+   if one was already attached, and review the EA inputs.
+6. For News, add https://nfs.faireconomy.media in MT5 Tools > Options >
    Expert Advisors > Allow WebRequest for listed URL.
 
 Updates
 
-The updater starts with Windows and checks every 15 minutes. When GunterChart
-shows New update available, click Restart & update when convenient. All EAs
-in that MT5 terminal pause briefly. Save or cancel unfinished chart edits and
-pending order previews first. No other MT5 installation is restarted.
+The updater starts with Windows and checks every 15 minutes. Open GunterChart
+Updater to Check for updates. Update updater installs a newer updater and
+reopens it automatically; MT5 stays running.
 
-You can open GunterChart Updater from the Windows notification area to check
-for updates, sign in again, or restore the previous version with MT5 closed.
-Restore never force-closes MT5. The first updater supports one standard MT5
-installation per Windows login; portable installations are not supported yet.
+For MT5 app updates, click Restart & update in GunterChart when convenient.
+All EAs in that MT5 terminal pause briefly. Finish chart edits and pending
+order previews first. Other MT5 installations are not restarted.
+
+This version supports one standard MT5 installation per Windows login.
+Portable installations are not supported. Restore previous version requires
+MT5 to be closed and never force-closes it.
+
+Migrating from updater v1/v2
+
+Those versions used the old private GitHub channel and need this package once.
+Exit the old updater from its tray menu before opening the new package.
+Use Install for this MT5 for the same terminal. Existing chart attachment and
+settings are retained. Public updater v3 and newer update without signing in.
 
 This is a pilot for feedback. Test on a DEMO account first. Installation does
-not place a trade or enable Algo Trading. The initial Windows package is not
-Authenticode-signed. Download only through the invited private repository.
-The helper currently updates the EA; a new helper requires a new package.
+not place trades or enable Algo Trading. Initial Windows packages are not
+Authenticode-signed. Download from the official link above. Updates retain
+signature and file verification. Public downloads do not include source code.
